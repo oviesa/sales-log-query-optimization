@@ -1,0 +1,16 @@
+# Generated data (large, regenerable via etl/generate_data.py)
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Benchmark results are intentionally KEPT (not ignored) -- they're
+# the evidence behind the latency-reduction claim in the README.
+# optimization/results/ stays tracked.
+
+# OS junk
+.DS_Store
+Thumbs.db
